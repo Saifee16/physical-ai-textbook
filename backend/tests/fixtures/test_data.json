@@ -1,0 +1,13 @@
+{
+  "test_user": {
+    "email": "test@example.com",
+    "password": "testpass123",
+    "software_level": "intermediate",
+    "hardware_level": "beginner"
+  },
+  "test_questions": [
+    "What is Physical AI?",
+    "How does ROS 2 work?",
+    "Explain NVIDIA Isaac Sim"
+  ]
+}

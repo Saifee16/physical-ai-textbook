@@ -1,0 +1,75 @@
+.personalizeContainer {
+  margin: 1rem 0;
+}
+
+.personalizeButton {
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.personalizeButton:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.personalizeButton:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.personalizedContent {
+  margin: 2rem 0;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 8px 8px 0 0;
+  font-weight: 600;
+}
+
+.revertButton {
+  padding: 0.5rem 1rem;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.revertButton:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.modifications {
+  padding: 1rem;
+  background: rgba(102, 126, 234, 0.1);
+  border-left: 4px solid #667eea;
+  margin-bottom: 1rem;
+}
+
+.modifications ul {
+  margin: 0.5rem 0 0 0;
+  padding-left: 1.5rem;
+}
+
+.modifications li {
+  margin: 0.25rem 0;
+}
+
+.error {
+  color: #c00;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
